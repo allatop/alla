@@ -7,8 +7,9 @@ public class ten {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt(), i = 7;
         int []ar = {1,4,5,9,10,50,90,100};
-        String []r = {"I","IV","V","IX","X","XL","L"}
-        while ()
+        String []r = {"I","IV","V","IX","X","XL","L"};
+
         System.out.print(a/2);
     }
 }
+/* проаисатть в ручгкю все 100 чисел*/
