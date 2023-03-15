@@ -1,15 +1,19 @@
-package task1task2;
+package laboratorn;
 
 import java.util.Scanner;
 
-public class ten {
+public class cymm {
     public static void  main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        if (a==1){
-            System.out.print("I");
+        int b = 0;
+        while (a!=0){
+            b += a%10;
+            a/=10;
+
         }
+
+        System.out.println(b);
 
     }
 }
-/* проаисатть в ручгкю все 100 чисел*/
