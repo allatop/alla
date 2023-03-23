@@ -9,7 +9,7 @@ public class age {
         double summa = 0.0;
         double count = 0.0;
         for (int i= 0; i < n; i++) {
-            String nam = sc.nextLine();
+            String name = sc.next();
             double a = sc.nextDouble();
             summa +=a;
             count +=1;
